@@ -22,9 +22,6 @@ int main(void)
 	flt_overflow = FLT_MAX * 2.;
 	flt_underflow = FLT_MIN / 2.;
 	
-	
-	
-	
 	// print results
 	printf("Max integer: %d \tMax integer + 1: %d\n", INT_MAX, int_overflow);
 	printf("Max float: %f \tMax float * 2: %f\n", FLT_MAX, flt_overflow);
