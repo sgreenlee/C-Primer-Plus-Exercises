@@ -27,5 +27,5 @@ int main(void)
 	printf("Max float: %f \tMax float * 2: %f\n", FLT_MAX, flt_overflow);
 	printf("Min float: %f \tMin float / 2: %f\n", FLT_MIN, flt_underflow);
 
-	return 1;
+	return 0;
 }
