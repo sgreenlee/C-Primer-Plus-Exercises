@@ -6,5 +6,6 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 #### Sections
 
 - [Chapter 3: Data and C](ch3/)
-
 - [Chapter 4: Character Strings and Formatted Input/Output](ch4/)
+- [Chapter 5: Operators, Expressions and Statements](ch5/)
+- [Chapter 6: C Control Statements: Looping](ch6/)
