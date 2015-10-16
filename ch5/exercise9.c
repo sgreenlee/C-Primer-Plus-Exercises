@@ -31,7 +31,7 @@ int main(void)
 	double fahr;
 	printf("This program converts fahrenheit to celsius and kelvin.\n");
 	printf("Enter a temperature in degrees fahrenheit (q to quit): ");
-	while (scanf("%lf", &fahr)) // continue executing loop if user enters number
+	while (scanf("%lf", &fahr) == 1) // continue executing loop if user enters valid number
 	{
 		Temperatures(fahr); // convert fahr to celsius and kelvin
 
