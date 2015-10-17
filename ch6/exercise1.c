@@ -15,9 +15,9 @@ int main(void)
 	int i;
 
 	// initialize array
-	for (letter = 'a', i = 0; letter <= 'z'; letter++, i++)
+	for (letter = 'a'; letter - 'a' < ALPHABET_LENGTH; letter++)
 	{
-		alphabet_lowercase[i] = letter; // store letter in array index i
+		alphabet_lowercase[letter - 'a'] = letter; // store letter in array
 	}
 
 	printf("The lowercase letters of the alphabet are:\n");
