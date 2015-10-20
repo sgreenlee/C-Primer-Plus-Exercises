@@ -33,4 +33,6 @@ int main(void)
 	printf("After %d years, Daphne's investment is worth $%.2f and "
 		   "Deirdre’s investment is worth $%.2f.\n", years,
 		   daphne_balance, deirdre_balance);
+
+	return 0;
 }
