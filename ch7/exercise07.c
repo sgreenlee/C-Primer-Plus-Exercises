@@ -61,5 +61,3 @@ float calulate_taxes(float gross_pay)
 	else
 		return TAX_RATE_1 * gross_pay;
 }
-
-
