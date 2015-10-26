@@ -17,7 +17,6 @@
 // calculates the tax. Use a loop so that the user can enter several tax cases.
 
 #include <stdio.h>
-#include <stdlib.h>
 
 #define SINGLE 1
 #define HEAD_OF_HOUSEHOLD 2
@@ -59,7 +58,7 @@ int main(void)
 					break;
 			case (EXIT) : 
 					printf("Bye.\n");
-					exit(0);
+					return 0; // Exit Program
 			default :
 					flush_input_buffer();
 					printf("Invalid input: please enter an integer between 1 and 5.\n");
