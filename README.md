@@ -9,3 +9,5 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 4: Character Strings and Formatted Input/Output](ch4/)
 - [Chapter 5: Operators, Expressions and Statements](ch5/)
 - [Chapter 6: C Control Statements: Looping](ch6/)
+- [Chapter 7: C Control Statements: Branching and Jumps](ch7/)
+- [Chapter 8: Character Input/Output and Input Validation](ch8/)
