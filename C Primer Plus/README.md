@@ -12,4 +12,4 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 7: C Control Statements: Branching and Jumps](ch07/)
 - [Chapter 8: Character Input/Output and Input Validation](ch08/)
 - [Chapter 9: Functions](ch09/)
-- [Chapter 10: Functions](ch10/)
+- [Chapter 10: Arrays and Pointers](ch10/)
