@@ -63,9 +63,6 @@ void copy_ptrs(double *target, double *source_start, double *source_end)
 {
 	// copy arr using pointer notation and pointer endpoint
 
-	for (double *ptr = source_start; ptr < source_end; ptr++)
-	{
+	for (double *ptr = source_start; ptr < source_end; ptr++, target++)
 		*target = *ptr;
-		target++;
-	}
 }
