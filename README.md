@@ -16,3 +16,4 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 11: Character Strings and String Functions](ch11/)
 - [Chapter 12: Storage Classes, Linkage and Memory Management](ch12/)
 - [Chapter 13: File Input/Output](ch13/)
+- [Chapter 14: Structures and Other Data Forms](ch14/)
