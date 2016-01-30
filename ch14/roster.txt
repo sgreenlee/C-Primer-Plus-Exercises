@@ -1,0 +1,9 @@
+4 Jessie Joybat 5 2 1 1
+10 Wade Boggs 5 3 4 1
+0 Sleepy Dwarf 4 1 0 0
+1 Grumpy Dwarf 3 2 1 1
+2 Dopey Dwarf 6 4 0 2
+10 Wade Boggs 3 2 0 1
+3 Snow White 2 2 0 1
+5 Pecorino Romano 4 0 1 0
+6 Parmigiano Reggiano 2 1 0 0
