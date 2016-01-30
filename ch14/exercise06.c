@@ -96,7 +96,8 @@ int main(void)
 	// print player data
 	showteamdata(players, ROSTERSIZE);
 
-	// get t
+	if (fclose(fp) != 0)
+		fprintf(stderr,"Error closing file\n");
 
 	return 0;
 }
