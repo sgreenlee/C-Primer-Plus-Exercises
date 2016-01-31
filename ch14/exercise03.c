@@ -81,6 +81,9 @@ int main(void)
 	else
 		printf("No books? Too bad.\n");
 
+	for (int i = 0; i < count; i++)
+		free(library[count]);
+
 	return 0;
 }
 
