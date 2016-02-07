@@ -17,3 +17,4 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 12: Storage Classes, Linkage and Memory Management](ch12/)
 - [Chapter 13: File Input/Output](ch13/)
 - [Chapter 14: Structures and Other Data Forms](ch14/)
+- [Chapter 15: Bit Fiddling](ch15/)
