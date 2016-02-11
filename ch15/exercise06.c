@@ -37,7 +37,6 @@
 #include <stdio.h>
 
 #define CLEARINPUT while (getchar() != '\n') continue
-#define ONOFF(status) status? "on" : "off"
 
 #define LEFT 0
 #define CENTER 1
@@ -47,6 +46,7 @@
 
 #define OFF 0
 #define ON 1
+#define ONOFF(status) status? "on" : "off"
 
 typedef struct {
 	unsigned int id: 			8;
@@ -90,7 +90,7 @@ int main()
 			togglebold(&font);
 		else if (ch == 'i')
 			toggleitalic(&font);
-		else if (ch == 'f')
+		else if (ch == 'u')
 			toggleunderline(&font);
 		else
 			puts("Sorry, I don't understand that input. Try again.");
