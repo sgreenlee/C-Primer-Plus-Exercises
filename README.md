@@ -19,3 +19,4 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 14: Structures and Other Data Forms](ch14/)
 - [Chapter 15: Bit Fiddling](ch15/)
 - [Chapter 16: The C Preprocessor and C Library](ch16/)
+- [Chapter 17: Advanced Data Representation](ch17/)
