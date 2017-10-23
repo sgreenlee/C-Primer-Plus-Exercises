@@ -65,15 +65,5 @@ unsigned int rotate_l(unsigned int value, int n)
 {
 	// rotate the bits in value n postitions to the left
 
-	int leftbit;
-
-	for (int i = 0; i < n; i++)
-	{
-		leftbit = value & LBITMASK;
-		value <<= 1;
-		if (leftbit)
-			value |= 1;
-	}
-
-	return value;
+	return x<<n|x>>(BITS-n);
 }
