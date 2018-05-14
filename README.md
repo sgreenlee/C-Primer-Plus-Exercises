@@ -20,3 +20,4 @@ Solutions to exercises from the book [C Primer Plus](http://www.amazon.com/Prime
 - [Chapter 15: Bit Fiddling](ch15/)
 - [Chapter 16: The C Preprocessor and C Library](ch16/)
 - [Chapter 17: Advanced Data Representation](ch17/)
+Bonjour, je suis liyi!
