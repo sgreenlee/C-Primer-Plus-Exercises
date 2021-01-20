@@ -56,6 +56,7 @@ int main(void)
 					return 0; // exit program
 
 			case ('a') : // artichokes
+					flush_input_buffer();
 					printf("How many pounds of artichokes would you like to add? ");
 					if (scanf("%f", &weight) == 1)
 						artichoke_weight += weight;
@@ -68,6 +69,7 @@ int main(void)
 					break;
 
 			case ('b') : // beets
+					flush_input_buffer();
 					printf("How many pounds of beets would you like to add? ");
 					if (scanf("%f", &weight) == 1)
 						beet_weight += weight;
@@ -80,6 +82,7 @@ int main(void)
 					break;
 
 			case ('c') : // carrots
+					flush_input_buffer();
 					printf("How many pounds of carrots would you like to add? ");
 					if (scanf("%f", &weight) == 1)
 						carrot_weight += weight;
@@ -92,6 +95,7 @@ int main(void)
 					break;
 
 			default :
+					flush_input_buffer();
 					printf("Invalid input. Try again.\n");
 					continue; // repeat main program loop
 		}
